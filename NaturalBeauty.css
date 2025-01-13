@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  header {
+    background-color:pink;
+    color:green;
+    text-align: center;
+    padding: 10px;
+  }
+  .logo img{
+    max-width: 100px;  
+height: auto;  
+padding: 10px;  
+margin-left: 5px;
+float:left;
+  display: flex;
+  
+  }
+
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 20px;
+    float: right;
+    text-align: right;
+    justify-content: space-between;
+    font-size: 20px;
+  
+  }
+  
+  
+  
+  
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  .service, .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3, .product h3 {
+    font-size: 1.2em;
+  }
+  
+  .service p, .product p {
+    color: black;
+  }
+  
+  .service:last-child, .product:last-child {
+    margin-bottom: 0;
+  }
+  h2{
+    text-align: center;
+  }
+
+  
+  
+  .products-container {
+    text-align: center;
+}
+.products-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+.div1 {
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+  .service img{
+   
+      width: 400px;
+      border-radius: 5px;
+      height: 300px;
+    }
+    
+   
+        
+
+   
+    
+        
+    
